@@ -25,32 +25,27 @@ The equation arises from a random walk (similar to heat diffusion in the heat eq
 $$V(S, T) = \max(S - K, 0) \quad \text{(call option payoff)}$$
 $$V(S, T) = \max(K - S, 0) \quad \text{(put option payoff)}$$
 
-- As \( S \to 0 \):
+- As $S \to 0$:
 
-$$V(0, t) = 0 \quad \text{(call)} \quad , \quad V(0, t) = K e^{-r(T-t)} \quad \text{(put)}$$
+$$V(0, t) = 0 \quad \text{(call)}, \quad V(0, t) = K e^{-r(T-t)} \quad \text{(put)}$$
 
-- As \( S \to \infty \):
+- As $S \to \infty$:
 
-$$V(S, t) \to S - K e^{-r(T-t)} \quad \text{(call)} \quad , \quad V(S, t) \to 0 \quad \text{(put)}$$
+$$V(S, t) \to S - K e^{-r(T-t)} \quad \text{(call)}, \quad V(S, t) \to 0 \quad \text{(put)}$$
 
 ### Pricing Equations
 
 Applying the boundary conditons for call and put option types:
 
 European call:
-$$
-C(S, t) = S N(d_1) - K e^{-r (T - t)} N(d_2)
-$$
+$$C(S, t) = S N(d_1) - K e^{-r (T - t)} N(d_2)$$
 
 European put:
-$$
-P(S, t) = K e^{-r (T - t)} N(-d_2) - S N(-d_1)
-$$
+$$P(S, t) = K e^{-r (T - t)} N(-d_2) - S N(-d_1)$$
 
----
+### Definitions:
 
-Definitions:
-$$d_1 = \frac{\ln\left(\frac{S}{K}\right) + \left( r + \frac{1}{2} \sigma^2 \right)(T - t)}{\sigma \sqrt{T - t}}$$
+$$d_1 = \frac{\ln\left(\frac{S}{K}\right) + \left(r + \frac{1}{2} \sigma^2 \right)(T - t)}{\sigma \sqrt{T - t}}$$
 
 $$d_2 = \frac{\ln\left(\frac{S}{K}\right) + \left(r - \frac{1}{2} \sigma^2\right)(T - t)}{\sigma \sqrt{T - t}}$$
 
