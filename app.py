@@ -15,7 +15,7 @@ t_mature = st.sidebar.slider("Time to Maturity (months)", min_value=1, max_value
 risk_free = st.sidebar.slider("Annual Risk Free Rate", 0.0, 10.0, 5.0, step=0.5) / 100
 option_type = st.sidebar.radio("Option Type", ["Call", "Put"])
 
-# Grid values
+# Heatmap grid values
 S_vals = np.linspace(50, 150, 100)
 sigma_vals = np.linspace(0.05, 1.0, 100)
 S_grid, sigma_grid = np.meshgrid(S_vals, sigma_vals)
