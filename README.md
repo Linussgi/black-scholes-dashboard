@@ -8,7 +8,7 @@ Basic dashboard app for European options pricing using the Black-Scholes equatio
 - Time to Maturity, $T$
 - Risk Free Rate, $r$
 
-The stock price and volatility are fixed ranges shown on the heatmap, whilst the other variables value sliders. The app is currently hosted on Streamlit.
+The stock price and volatility are fixed ranges shown on the heatmap, whilst the other variables value sliders. The app is currently hosted on Streamlit [here](https://options-bsp.streamlit.app/).
 
 ## Background
 
