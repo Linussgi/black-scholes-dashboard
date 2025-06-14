@@ -1,0 +1,1 @@
+TICK_FONT = 18
