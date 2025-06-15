@@ -1,6 +1,6 @@
 # black-scholes-dashboard
 
-Basic dashboard app for European options pricing using the Black-Scholes equation. Built and hosted with Streamlit and plotted suing Plotly. Current version supports put and call options pricing, with varying:
+Basic dashboard app for European options pricing using the Black-Scholes equation. Built and hosted with Streamlit and plotted using Plotly. Current version supports put and call options pricing, with varying:
 
 - Stock Price, $S$
 - Stock Volatility, $\sigma$
@@ -8,7 +8,7 @@ Basic dashboard app for European options pricing using the Black-Scholes equatio
 - Time to Maturity, $T$
 - Risk Free Rate, $r$
 
-The stock price and volatility are fixed ranges shown on the heatmap, whilst the other variables value sliders. The app is currently hosted on Streamlit [here](https://options-bsp.streamlit.app/).
+The stock price and volatility are fixed ranges shown on the heatmap, whilst the other variables can be manipulated using value sliders. The app is currently hosted on Streamlit [here](https://options-bsp.streamlit.app/).
 
 ## Background
 
